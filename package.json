@@ -1,0 +1,34 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "description": "fazer uma api para ecomerce basica como forma de estudo e aprendizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guizzo-Renan/ApiNodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "api",
+    "mysql"
+  ],
+  "author": "renan gustavo guizzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guizzo-Renan/ApiNodeJS/issues"
+  },
+  "homepage": "https://github.com/Guizzo-Renan/ApiNodeJS#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mysql": "^2.18.1"
+  }
+}
